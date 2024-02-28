@@ -19,7 +19,10 @@ import java.util.List;
  */
 public class ASimpleTest {
 
-
+    /**
+     * 生产者
+     * @throws Exception
+     */
     @Test
     public void simpleProducer() throws Exception {
         // 创建一个生产者  (制定一个组名)
@@ -37,7 +40,10 @@ public class ASimpleTest {
         producer.shutdown();
     }
 
-    //////////////////// 消费者
+    /**
+     * 消费者
+     * @throws Exception
+     */
     @Test
     public void simpleConsumer() throws Exception {
         // 创建一个消费者
